@@ -1,0 +1,12 @@
+{
+    "top": [],
+    "bottom": [
+        ["Rename", "rename"],
+        ["Edit", "open_with_editor"],
+        ["Copy", "copy"],
+        ["Move", "move"],
+        ["New folder", "create_directory"],
+        ["Terminal", "open_terminal"],
+        ["Explorer", "open_native_file_manager"]
+    ]
+}
