@@ -3,6 +3,7 @@ from PyQt5.QtCore import QEvent, QObject, pyqtSignal
 from PyQt5.QtWidgets import QHBoxLayout, QPushButton, QVBoxLayout, QWidget
 from fbs_runtime.application_context import cached_property
 from fman import DirectoryPaneListener, _get_app_ctxt, load_json, run_application_command, show_alert
+from fman.impl.util.qt.thread import run_in_main_thread
 
 
 class NewMainWidget(QWidget):
@@ -104,7 +105,15 @@ class PaneInitDetection(DirectoryPaneListener):
         main_widget.new_pane_created(self.pane)
 
 
-event_filter = InputFocusFilter()
-window = _get_app_ctxt().main_window
-main_widget = NewMainWidget(window, window._splitter)
-window.setCentralWidget(main_widget)
+event_filter = None
+main_widget = None
+
+@run_in_main_thread
+def init_plugin():
+    global event_filter, main_widget
+    event_filter = InputFocusFilter()
+    window = _get_app_ctxt().main_window
+    main_widget = NewMainWidget(window, window._splitter)
+    window.setCentralWidget(main_widget)
+
+init_plugin()
