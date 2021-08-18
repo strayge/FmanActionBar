@@ -1,12 +1,13 @@
 {
     "top": [],
     "bottom": [
-        ["Rename", "rename"],
-        ["Edit", "open_with_editor"],
-        ["Copy", "copy"],
-        ["Move", "move"],
-        ["New folder", "create_directory"],
-        ["Terminal", "open_terminal"],
-        ["Explorer", "open_native_file_manager"]
+        ["[F3] View", "view"],
+        ["[F4] Edit", "open_with_editor"],
+        ["[F5] Copy", "copy"],
+        ["[F6] Move", "move"],
+        ["[SH+F6] Rename", "rename"],
+        ["[F7] New folder", "create_directory"],
+        ["[F9] Terminal", "open_terminal"],
+        ["[F10] Explorer", "open_native_file_manager"]
     ]
 }
