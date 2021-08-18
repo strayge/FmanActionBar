@@ -46,7 +46,7 @@ In order to configure the action bars edit the [action_bar.json](action_bar.json
 ```
 
 ### Preview of the above example
-![Showing the top and bottom action bars for the above example](https://user-images.githubusercontent.com/2664578/129769853-f9755cff-8b6a-44f2-9461-34f2a507e573.png)
+![Showing the top and bottom action bars for the above example](https://user-images.githubusercontent.com/1760091/129923829-7afeb159-b0a6-4e05-b74b-8f0a959f070a.jpg)
 
 ### Default (Out of the box) action menu configuration
 ```json
@@ -66,7 +66,7 @@ In order to configure the action bars edit the [action_bar.json](action_bar.json
 ```
 
 ### Preview of fman using the action bar with default values
-![Showing the top and bottom action bars using the default values](https://user-images.githubusercontent.com/2664578/129769853-f9755cff-8b6a-44f2-9461-34f2a507e573.png)
+![Showing the top and bottom action bars using the default values](https://user-images.githubusercontent.com/1760091/129923918-f130004a-5ce0-42c4-8ca8-2dbcec79c07a.jpg)
 
 ## Disclaimer
 The theme in the screenshots was changed using [Fman Alternative Colors](https://github.com/strayge/FmanAlternativeColors) plugin  
