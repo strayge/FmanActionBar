@@ -1,6 +1,6 @@
 # FmanActionBar
 ## Overview
-Plugin for [fman.io](https://fman.io).
+Plugin for [fman.io](https://fman.io)  
 Adds top & bottom action bars with buttons (configurable) for various actions.
 
 ## Installation
